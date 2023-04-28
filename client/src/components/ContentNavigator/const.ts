@@ -43,6 +43,8 @@ export const FOLDER_TYPES = [
 ];
 
 export const Messages = {
+  AddFileToMyFolderFailure: "Unable to add file to my folder.",
+  AddFileToMyFolderSuccess: "File added to my folder.",
   DeleteButtonLabel: "Delete",
   DeleteWarningMessage:
     'Are you sure you want to permanently delete the item "{name}"?',
