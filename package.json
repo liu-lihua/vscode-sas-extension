@@ -340,11 +340,6 @@
         "category": "SAS"
       },
       {
-        "command": "SAS.addFileToMyFolder",
-        "title": "%commands.SAS.addFileToMyFolder%",
-        "category": "SAS"
-      },
-      {
         "command": "SAS.refreshContent",
         "title": "%commands.SAS.refresh%",
         "category": "SAS",
@@ -443,12 +438,6 @@
           "command": "SAS.emptyRecycleBin",
           "when": "viewItem =~ /empty/ && view == contentDataProvider",
           "group": "emptygroup@0"
-        }
-      ],
-      "explorer/context": [
-        {
-          "command": "SAS.addFileToMyFolder",
-          "when": "SAS.connectionType == rest"
         }
       ],
       "editor/title/run": [
