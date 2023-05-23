@@ -88,3 +88,5 @@ export const isValidItem = (item: ContentItem): boolean =>
 
 export const isItemInRecycleBin = (item: ContentItem): boolean =>
   !!item && item.__trash__;
+
+export const isContentItem = (item): item is ContentItem => isValidItem(item);
