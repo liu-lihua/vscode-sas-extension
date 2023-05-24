@@ -421,7 +421,7 @@
         },
         {
           "command": "SAS.renameResource",
-          "when": "viewItem =~ /update/ && view == contentDataProvider",
+          "when": "viewItem =~ /update/ && view == contentDataProvider && !listMultiSelection",
           "group": "delrenamegroup@0"
         },
         {
