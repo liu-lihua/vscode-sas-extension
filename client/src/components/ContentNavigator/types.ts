@@ -14,6 +14,7 @@ export interface ContentItem {
   __trash__: boolean;
   memberCount?: number;
   permission: Permission;
+  parentFolderUri?: string;
 }
 
 export interface Link {
