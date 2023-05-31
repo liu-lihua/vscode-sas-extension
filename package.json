@@ -658,7 +658,7 @@
     "path-browserify": "^1.0.1",
     "prettier": "^2.8.8",
     "sinon": "^15.1.0",
-    "ts-loader": "^9.4.2",
+    "ts-loader": "^9.4.3",
     "ts-sinon": "^2.0.2",
     "typescript": "^5.0.4",
     "webpack": "^5.83.1",
